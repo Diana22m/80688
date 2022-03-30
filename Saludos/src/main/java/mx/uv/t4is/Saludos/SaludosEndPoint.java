@@ -21,7 +21,7 @@ import https.t4is_uv_mx.saludos.BuscarSaludosResponse.Saludos;
 public class SaludosEndPoint {
 
     int cont = 1;
-    //List<Saludos> lista = new ArrayList<>();        //La clase Saludos es la que creamos con los set y get
+   
     ArrayList<Saludos> lista1 = new ArrayList<>();
     private int i=0;
 
@@ -56,12 +56,7 @@ public class SaludosEndPoint {
 
         BuscarSaludosResponse respuesta = new BuscarSaludosResponse();
 
-       /* for(Saludos saludo : lista){
-            BuscarSaludosResponse.Saludos buscarSaludos = new BuscarSaludosResponse.Saludos();
-            buscarSaludos.setId(saludo.getId());
-            buscarSaludos.setNombre(saludo.getNombre());
-            repuesta2.getSaludos().add(buscarSaludos);
-        }*/
+      
 
 
         //recorrer la lista 
