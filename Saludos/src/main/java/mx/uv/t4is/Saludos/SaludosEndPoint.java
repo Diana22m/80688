@@ -34,12 +34,7 @@ public class SaludosEndPoint {
         respuesta.setRespuesta("Hola "+ peticion.getNombre());
 
 
-        //Para el metodo BuscarSaludosResponse
-       /* Saludos saludo = new Saludos();
-        saludo.setNombre(peticion.getNombre());
-        saludo.setId(cont);
-        lista.add(saludo);
-        cont++;*/
+       
 
 
         Saludos e = new Saludos();
